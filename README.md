@@ -1,44 +1,94 @@
-# 🏆 CodeCup: The Web3 Coding Challenge Arena 🚀
+<h1 align="center">
+  <img src="https://i.ibb.co/nWSfcVh/image.png" alt="CodeCup Logo" width="120" />
+  <br>
+  🏆 CodeCup: The Web3 Coding Challenge Arena 🚀
+</h1>
 
-**Where Code Becomes an Asset.**
+<p align="center">
+  <b>Where Code Becomes an Asset.</b><br>
+  <i>
+    Unleash your coding skills, earn rewards, and compete in the ultimate arena for developers on Solana!
+  </i>
+</p>
 
-CodeCup is a modern, full-stack web application that transforms coding challenges into a vibrant, community-driven ecosystem on the Solana blockchain. It's a platform where developers can showcase their skills, create and share video content, earn rewards, and engage in live coding battles.
-
-![CodeCup Homepage](https://i.ibb.co/nWSfcVh/image.png)
+<p align="center">
+  <a href="#features"><img alt="Features" src="https://img.shields.io/badge/-Features-blueviolet?style=flat-square"></a>
+  <a href="#tech-stack"><img alt="Tech Stack" src="https://img.shields.io/badge/-Tech%20Stack-green?style=flat-square"></a>
+  <a href="#demo"><img alt="Live Demo" src="https://img.shields.io/badge/-Live%20Demo-orange?style=flat-square"></a>
+  <a href="#license"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"></a>
+</p>
 
 ---
 
-## ✨ Core Features
+<img src="https://i.ibb.co/nWSfcVh/image.png" alt="CodeCup Homepage Screenshot" width="100%"/>
 
-CodeCup is packed with features designed to empower creators and engage the community:
+---
 
--   🎥 **Video Uploads & NFT Minting**: Creators can upload coding challenge videos, which are automatically minted as NFTs on the Solana devnet using the Underdog Protocol. This gives creators true ownership of their content.
--   💰 **Solana Tipping**: Viewers can directly support their favorite creators by tipping them with SOL.
--   ⚔️ **Live Code Battles**: Challenge other creators to head-to-head coding battles, streamed live using Livepeer. The community votes for the winner in real-time.
--   🎯 **Daily Coding Challenges**: A new challenge appears every day! Users can submit their solutions and receive instant feedback and a score from an AI Judge powered by Google's Gemini model via Genkit.
--   📈 **Dynamic Leaderboards**: Track top performers across various categories, including top-voted videos, top-earning creators, most generous tippers, and country-based rankings.
--   🪙 **Creator Tokens**: Creators can launch their own SPL tokens via pump.fun and link them to their profiles, enabling a personal economy.
--   🔒 **Token-Gated Content**: Creators can restrict access to their videos, making them exclusive to holders of their creator token.
--   👤 **Rich User Profiles**: Profiles showcase a user's uploaded videos, NFT collection, achievements, and battle history.
--   🛡️ **Admin Dashboard**: A secure area for administrators to manage the platform, starting with a bug report viewer.
--   🐛 **Integrated Bug Reporting**: A simple, sitewide bug reporting system that feeds directly into the admin dashboard.
+## ✨ Why CodeCup Stands Out
+
+- **Revolutionary Web3 Platform**: Turn coding challenges into digital assets and own your creations.
+- **Empowering Creators**: Mint challenge videos as NFTs, kickstart your personal token economy, and build your brand.
+- **Community-Fueled Competition**: Battle live, get voted by the audience, and climb dynamic leaderboards.
+- **Rewarding Engagement**: Earn SOL tips, achievements, and recognition from a global dev audience.
+- **Cutting-Edge Tech**: Built from the ground up with Next.js, Solana, Livepeer, Firebase, and more.
+
+---
+
+## 🚀 Core Features
+
+- 🎥 **NFT Video Challenges**: Upload and mint coding challenge videos as NFTs on Solana (Underdog Protocol).
+- 💰 **Real SOL Tipping**: Viewers can instantly tip creators with Solana’s lightning-fast blockchain.
+- ⚔️ **Live Code Battles**: Go head-to-head with other creators in live, streamed coding battles (Livepeer) with real-time voting.
+- 🎯 **Daily AI Challenges**: Solve new daily problems and get scored instantly by an AI Judge (Google Gemini).
+- 📈 **Dynamic Leaderboards**: Track top creators, earners, tippers, and country-based rankings.
+- 🪙 **Personal Creator Tokens**: Launch your own SPL token (pump.fun) and create token-gated video content.
+- 👤 **Rich User Profiles**: Showcase your work, NFT collection, achievements, and battle history.
+- 🛡️ **Admin Dashboard**: Secure platform management, including real-time bug report tracking.
+- 🐛 **Seamless Bug Reporting**: Integrated, sitewide reporting system for a robust feedback loop.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This project is built with a modern, robust, and scalable technology stack:
+| Layer         | Tech/Service                                                                                                 |
+|---------------|-------------------------------------------------------------------------------------------------------------|
+| **Frontend**  | [Next.js](https://nextjs.org/) · [React](https://reactjs.org/) · [TypeScript](https://www.typescriptlang.org/) · Tailwind CSS · ShadCN UI |
+| **Backend**   | [Firebase](https://firebase.google.com/) (Auth, Firestore, Storage, Functions)                              |
+| **Blockchain**| [Solana](https://solana.com/) · [Underdog Protocol](https://underdogprotocol.com/) · @solana/wallet-adapter |
+| **Streaming** | [Livepeer](https://livepeer.org/)                                                                           |
 
--   **Framework**: [Next.js](https://nextjs.org/) (App Router)
--   **UI**: [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), [ShadCN UI](https://ui.shadcn.com/)
--   **Backend & Database**: [Firebase](https://firebase.google.com/) (Authentication, Firestore, Cloud Storage, Cloud Functions)
--   **Blockchain (Web3)**: [Solana](https://solana.com/)
-    -   **Wallet Integration**: `@solana/wallet-adapter`
-    -   **NFT Minting**: [Underdog Protocol](https://underdogprotocol.com/)
--   **Live Streaming**: [Livepeer](https://livepeer.org/)
+---
+
+## 🔥 Get Involved
+
+1. **Clone the repo:**  
+   `git clone https://github.com/iamaanahmad/CodeCup-World.git`
+
+2. **Install dependencies:**  
+   `npm install`
+
+3. **Configure your environment:**  
+   Add your Firebase, Solana, and Livepeer credentials.
+
+4. **Start building & competing!**  
+   `npm run dev`
+
+---
+
+## 📣 Demo
+
+> _Coming Soon: Live Demo Link!_
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License.
+Distributed under the MIT License.  
+See [`LICENSE`](./LICENSE) for more information.
+
+---
+
+<p align="center">
+  <b>CodeCup – Where Developers Rise as Champions!</b><br>
+  <i>Ready to code, compete, and earn? Join us today!</i>
+</p>
