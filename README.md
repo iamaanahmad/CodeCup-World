@@ -1,6 +1,4 @@
 <h1 align="center">
-  <img src="https://i.ibb.co/nWSfcVh/image.png" alt="CodeCup Logo" width="120" />
-  <br>
   🏆 CodeCup: The Web3 Coding Challenge Arena 🚀
 </h1>
 
@@ -59,25 +57,9 @@
 
 ---
 
-## 🔥 Get Involved
-
-1. **Clone the repo:**  
-   `git clone https://github.com/iamaanahmad/CodeCup-World.git`
-
-2. **Install dependencies:**  
-   `npm install`
-
-3. **Configure your environment:**  
-   Add your Firebase, Solana, and Livepeer credentials.
-
-4. **Start building & competing!**  
-   `npm run dev`
-
----
-
 ## 📣 Demo
 
-> _Coming Soon: Live Demo Link!_
+> [https://www.codecup.cc/](https://www.codecup.cc/)
 
 ---
 
